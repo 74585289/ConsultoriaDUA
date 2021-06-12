@@ -1,0 +1,182 @@
+/*primer comentario de mi hoja de estilos*/
+/*SELECTOR SIMPLE DE ELEMENTO*/
+h2 {/*
+  font-size: 2em; /*ESTE ES EL TAMAÑO DE FUENTE*/
+  color: rgb(#4caf87); /*ESTE ES EL COLOR DE LA FUENTE (LETRA)*/
+  text-align: center; /*ESTE ES EL ALINIAMIENTO DE TEXTO*/
+}
+h1 {
+  font-size: 3em;
+  color: rgb(26, 174, 194);
+  text-align: center;
+  font-family: fantasy; /*ESTE ES EL TIPO DE FUENTE (LETRA)*/
+}
+h3 {
+  font-size: 1em;
+  color: rgb(38, 209, 231);
+  text-align: center;
+  font-family: serif;
+}
+/*para lorem*/
+.parrafo {
+  color: chartreuse;
+  font-style: italic;
+  text-align: center;
+}
+p.parrafo1 {
+  color: rgb(255, 0, 64);
+  font-style: italic;
+}
+p.parrafo2 {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic; 
+}
+p.parrafo3 {
+  color: rgb(0, 174, 255);
+  font-family: Arial;
+  text-align: center;
+}
+/*ESTILOS CSS LIBRES*/
+.libre {
+  background-color: rgb(255, 17, 0);
+  color: darkgoldenrod;
+  padding: 15px 35px;
+  text-align: center;
+  font-size: 16px;
+}
+/*ESTILOS PARA COLOCAR EN NUESTRO MENÚ*/
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+.menu{
+  margin-left: 15%;
+}
+.menu a{
+  background-color: rgb(25, 25, 146);
+  color: rgb(3, 211, 211);
+  font-size: 1.5em;
+  text-decoration: none;
+  float: left;
+  width: 14%;
+  text-align: center;
+  padding: 25px;
+  font-family: avon;
+  
+        
+}
+.menu a:hover{
+  background-color: rgb(3, 3, 114);
+
+}
+
+img.tamaño{
+  width: 128px;
+  float: left;
+}
+.derecha{
+  float: left;
+  
+}
+.izquierda{
+  float: right;
+
+}
+/*parallax*/
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.parallax {
+  background: white fixed no-repeat 50% 50% ;
+  background-size: cover;
+}
+#seccion1 {
+  background-color: #0f4b79;
+}
+#seccion1_1{
+  background-color: #0f4b79;
+  height: 72%;
+}
+#seccion1_2{
+  background-image: url(img/fondo3.png);
+  font-family: Arial;
+  height: 30%
+}
+#seccion2 {
+   background-color: #397297;
+   height: 70%;
+}
+#seccion2_1{
+  background-color: #215577;
+  height: 70%;
+}
+#seccion3 {
+   background-color: #093353 ;
+}
+/*nueva fuente de letra*/
+@font-face {
+  font-family: avon;
+  src: url(Fuentes/Anton-Regular.ttf);
+}
+
+.largo{
+  height: 50px;
+  width: 1050px;
+  margin: auto;
+}
+#boton{
+  background-color: rgb(58, 58, 167);
+  color: rgb(3, 211, 211);
+  font-size: 1em;
+  text-decoration: none;
+  float: left;
+  width: 16%;
+  text-align: center;
+  padding: 4px;
+}
+#boton a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+#vcentro{
+  margin-left: 35%;
+}
+.fondo{
+  background-color: #0c3c60;
+}
+footer {
+  background-color: black;
+  padding: 50px 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.redes{
+  float: right;
+  margin-right: 1%;
+}
+#contactosnumericos{
+  text-align: left;
+  font-size: 1.5em;
+  color: #1688FB;
+}
+
+#telefono {
+font-size: 1em; 
+color: #1688FB;
+} 
+
+#num{
+  font-size: 1.5em;
+  color: #1688FB;
+}
